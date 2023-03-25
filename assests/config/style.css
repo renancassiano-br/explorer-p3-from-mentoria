@@ -3,3 +3,46 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 435px;
+  top: 0;
+  background: #535971;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  margin: 0 auto;
+  color: white;
+}
+
+header{
+  margin-top: 140px;
+}
+header h1 {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+header p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+#my-form {
+  margin-top: 58px;
+  border-radius: 20px 20px 0 0;
+  background: white;
+  color: #535971;
+  border: 1px solid red;
+  height: 300px;
+  /* width: 50%; */
+}
