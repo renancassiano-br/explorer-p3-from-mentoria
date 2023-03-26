@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de mentoria</title>
@@ -23,20 +26,20 @@
             <div class="col">
               <div class="input-col">
                 <label for="name">Nome</label>
-                <input type="text" id="name">
+                <input type="text" id="name" placeholder="Qual seu nome?" required>
               </div>
 
               <div class="input-col">
                 <label for="surname">Sobrenome</label>
-                <input type="text" id="surname">
+                <input type="text" id="surname" placeholder="Qual seu sobrenome?" required>
               </div>
             </div>
 
             <label for="mail">E-mail <span>(Digite um e-mail válido)</span></label>
-            <input type="email" id="mail">
+            <input type="email" id="mail" placeholder="eu-email@empresa.com.br" >
 
             <label for="password">Senha <span>(Mínimo de 6 caracteres)</span></label>
-            <input type="password" id="password" minlength="6">
+            <input type="password" id="password" minlength="6" placeholder="Digite uma senha." required>
           </div>
         </fieldset>
 
@@ -45,7 +48,7 @@
             <legend>INFORMAÇÕES DO MENTOR</legend>
 
             <label for="mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
-            <input type="text" minlength="3" maxlength="30" required>
+            <input type="text" minlength="3" maxlength="30" required placeholder="Qual o nome do seu mentor(a)?">
           </div>
         </fieldset>
 
@@ -56,7 +59,7 @@
             <div class="col">
               <div class="input-col">
                 <label for="date1">Data <span>(DD/MM/AAAA)</span></label>
-                <input type="date" id="date1">
+                <input type="date" id="date1" required>
               </div>
               <div class="col2">
                 <div class="input-col">
@@ -74,7 +77,7 @@
             <div class="col">
               <div class="input-col">
                 <label for="date2">Data <span>(DD/MM/AAAA)</span></label>
-                <input type="date" id="date2">
+                <input type="date" id="date2" required>
               </div>
               <div class="col2">
                 <div class="input-col">

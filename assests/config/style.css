@@ -16,6 +16,8 @@ body::before {
 body{
   background: #E5E5E5;
   margin-bottom: 5%;
+  color: #535971;
+  font-family: 'Poppins', sans-serif;
 }
 main {
   display: flex;
@@ -29,15 +31,12 @@ header{
   margin-top: 140px;
 }
 header h1 {
-  font-family: 'Staatliches';
+  font-family: 'Staatliches', cursive;
   font-weight: 400;
   font-size: 48px;
   line-height: 60px;
 }
-
 header p {
-  font-family: 'Poppins';
-  font-weight: 400;
   font-size: 20px;
   line-height: 30px;
 }
@@ -57,36 +56,43 @@ fieldset {
   flex-direction: column;
 }
 
-legend {
+legend, h3 {
   margin-bottom: 32px;
   padding-bottom: 16px;
   border-bottom:  1px solid #E6E6F0;
-
-  font-family: 'Staatliches';
+  font-family: 'Staatliches', cursive;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
 }
 
+span {
+  font-size: 12px;
+  line-height: 20px;
+  color: #a7a3af;
+}
+
 input {
   margin: 8px 0 16px;
+  padding: 8px;
   height: 56px;
   background: #FAFAFC;
   border: 1px solid #E6E6F0;
   border-radius: 8px;
+}
+input:invalid {
+  border: 1px solid #fa1644;
 }
 
 .col {
   display: flex;
   gap: 22px;
 }
-
 .col2 {
   display: flex;
   gap: 10px;
   width: 60%;
 }
-
 .input-col {
   display: flex;
   width: 100%;
@@ -99,7 +105,9 @@ input {
 }
 
 h3 {
-  min-width: 30vw;
+  border-bottom: 0;
+  margin-bottom: 8px;
+  padding: 0;
 }
 
 footer {
@@ -122,8 +130,7 @@ footer {
   background: #FF5374;
   border-radius: 20px;
 
-  font-family: 'Staatliches';
-  font-weight: 400;
+  font-family: 'Staatliches', cursive;
   font-size: 20px;
   line-height: 26px;
   color: #FFFFFF;
@@ -131,5 +138,5 @@ footer {
 .btn:hover {
   background: #fa1644;
   transform: scale(1.05);
-  font-weight: 700;
+  font-weight: 500;
 }
