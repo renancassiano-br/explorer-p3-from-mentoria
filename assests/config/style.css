@@ -8,10 +8,14 @@ body::before {
   content: "";
   position: absolute;
   z-index: -1;
-  width: 100vw;
+  width: 100%;
   height: 435px;
   top: 0;
   background: #535971;
+}
+body{
+  background: #E5E5E5;
+  margin-bottom: 5%;
 }
 main {
   display: flex;
@@ -44,7 +48,6 @@ header p {
   border-radius: 20px 20px 0 0;
   background: white;
   color: #535971;
-  border: 1px solid red;
 }
 
 fieldset {
@@ -95,11 +98,38 @@ input {
   flex-direction: column;
 }
 
-/* .col > div:nth-child(1) {
-  border: 1px solid red;
-  width: 100%;
-} */
-
 h3 {
   min-width: 30vw;
+}
+
+footer {
+  height: 160px;
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  height: 100%;
+  
+  margin: 52px 71px;
+  padding: 15px 40px;
+  background: #FF5374;
+  border-radius: 20px;
+
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.btn:hover {
+  background: #fa1644;
+  transform: scale(1.05);
+  font-weight: 700;
 }
