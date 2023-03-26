@@ -17,7 +17,28 @@
       </header>
 
       <form id="my-form">
-  
+        <fieldset>
+          <div class="element-field">
+            <legend>INFORMAÇÕES PESSOAIS</legend>
+            <div class="col2">
+              <div class="input-col2">
+                <label for="name">Nome</label>
+                <input type="text" id="name">
+              </div>
+
+              <div class="input-col2">
+                <label for="surname">Sobrenome</label>
+                <input type="text" id="surname">
+              </div>
+            </div>
+
+            <label for="mail">E-mail <span>(Digite um e-mail válido)</span></label>
+            <input type="email" id="mail">
+
+            <label for="password">Senha <span>(Mínimo de 6 caracteres)</span></label>
+            <input type="text" id="password" minlength="6">
+          </div>
+        </fieldset>
       </form>
     </main>
   </body>
