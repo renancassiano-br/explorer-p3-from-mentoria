@@ -39,6 +39,7 @@ header h1 {
 header p {
   font-size: 20px;
   line-height: 30px;
+  max-width: 415px;
 }
 
 #my-form {
