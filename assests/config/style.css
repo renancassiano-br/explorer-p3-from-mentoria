@@ -73,12 +73,18 @@ input {
   border-radius: 8px;
 }
 
-.col2 {
+.col {
   display: flex;
   gap: 22px;
 }
 
-.input-col2 {
+.col2 {
+  display: flex;
+  gap: 10px;
+  width: 60%;
+}
+
+.input-col {
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -87,4 +93,13 @@ input {
 .element-field{
   display: flex;
   flex-direction: column;
+}
+
+/* .col > div:nth-child(1) {
+  border: 1px solid red;
+  width: 100%;
+} */
+
+h3 {
+  min-width: 30vw;
 }

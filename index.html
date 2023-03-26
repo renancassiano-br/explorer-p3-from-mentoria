@@ -20,13 +20,13 @@
         <fieldset>
           <div class="element-field">
             <legend>INFORMAÇÕES PESSOAIS</legend>
-            <div class="col2">
-              <div class="input-col2">
+            <div class="col">
+              <div class="input-col">
                 <label for="name">Nome</label>
                 <input type="text" id="name">
               </div>
 
-              <div class="input-col2">
+              <div class="input-col">
                 <label for="surname">Sobrenome</label>
                 <input type="text" id="surname">
               </div>
@@ -36,7 +36,57 @@
             <input type="email" id="mail">
 
             <label for="password">Senha <span>(Mínimo de 6 caracteres)</span></label>
-            <input type="text" id="password" minlength="6">
+            <input type="password" id="password" minlength="6">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div class="element-field">
+            <legend>INFORMAÇÕES DO MENTOR</legend>
+
+            <label for="mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+            <input type="text" minlength="3" maxlength="30" required>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div class="element-field">
+            <legend>SEUS HORÁRIOS DISPONÍVEIS</legend>
+            <h3>PRIMEIRA MENTORIA</h3>
+            <div class="col">
+              <div class="input-col">
+                <label for="date1">Data <span>(DD/MM/AAAA)</span></label>
+                <input type="date" id="date1">
+              </div>
+              <div class="col2">
+                <div class="input-col">
+                  <label for="begin1">Das</label>
+                  <input type="time" id="begin1">
+                </div>
+                <div class="input-col">
+                  <label for="end1">Até</label>
+                  <input type="time" id="end1">
+                </div>
+              </div>
+            </div>
+
+            <h3>SEGUNDA MENTORIA</h3>
+            <div class="col">
+              <div class="input-col">
+                <label for="date2">Data <span>(DD/MM/AAAA)</span></label>
+                <input type="date" id="date2">
+              </div>
+              <div class="col2">
+                <div class="input-col">
+                  <label for="begin2">Das</label>
+                  <input type="time" id="begin2">
+                </div>
+                <div class="input-col">
+                  <label for="end2">Até</label>
+                  <input type="time" id="end2">
+                </div>
+              </div>
+            </div>
           </div>
         </fieldset>
       </form>
