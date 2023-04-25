@@ -34,6 +34,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O Projeto 3 - mentoria é um formulário para agendamento de mentoria com informações de data e hora.  
+<br>
+🔗 - [Acesse o projeto aqui!](https://renancassiano-br.github.io/explorer-p3-from-mentoria)
 
 ## 🔖 Layout
 
